@@ -39,7 +39,7 @@ public class Practice {
         if( smallest != A && biggest !=A)
             median = A; 
             
-      */
+      
         
 
         int modelnum = 3 ; 
@@ -48,5 +48,22 @@ public class Practice {
         Boolean recallable = (modelnum == 1 || modelYear == 2005) && (modelYear >= 1999 && modelYear <= 2005)  ;
 
         System.out.println(recallable);
+
+*/
+
+
+ String s = "Hello World";
+ char c ='b'; 
+        System.out.println(s.length());
+        System.out.println(s.charAt(0));
+        System.out.println(s.charAt(6));
+        System.out.println(s.indexOf('o'));
+        System.out.println(s.indexOf('o', s.indexOf('o') + 1));
+        System.out.println(s.substring(0, 5));
+        System.out.println(s.substring(6));
+
+
+
+
     }
 }
