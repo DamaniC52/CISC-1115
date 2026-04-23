@@ -34,11 +34,14 @@ public class April14 {
             number[i] = (int) (Math.random() * 100);
         }
 
+        double sum = 0;
         for (int j = 0; j < number.length; j++){
             System.out.println(number[j] + "");
+            sum += number[j];
         }
 
-         
+        System.out.println("Sum: " + sum);
+        System.out.println("Average: " + (sum / number.length));
     }
 }
 
