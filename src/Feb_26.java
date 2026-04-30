@@ -1,6 +1,7 @@
 import java.util.*;
 public class Feb_26 {
     public static void main(String[] args) {
+        @SuppressWarnings("unused")
         Scanner input = new Scanner(System.in); 
         // int x = (int)(Math.random() * 90 + 10);
        // System.out.println( x);

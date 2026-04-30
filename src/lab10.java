@@ -16,6 +16,7 @@ public class lab10 {
         System.out.println(++ch1 + ch2++);
 
         // 5
+        @SuppressWarnings("unused")
         String s = "Hello";
         ch1 = 'A';
         ch2 = '1';

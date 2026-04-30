@@ -47,7 +47,6 @@ System.out.println(" Your final payment will be " + FinalPayment);
 
 //problem 6
 int seconds; 
-Scanner input3 = new Scanner (System.in);
 System.out.print("Enter seconds ");
 seconds = input.nextInt();
 

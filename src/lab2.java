@@ -28,6 +28,7 @@ public class lab2 {
 
     //problem 6
     
+        @SuppressWarnings("unused")
         double pi = 3.14;
         double w = 10.4;
         double h = 12.2;
